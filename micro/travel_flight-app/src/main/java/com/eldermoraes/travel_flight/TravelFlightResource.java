@@ -1,6 +1,5 @@
 package com.eldermoraes.travel_flight;
 
-import com.eldermoraes.travel_order.TravelOrder;
 import jakarta.transaction.Transactional;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
