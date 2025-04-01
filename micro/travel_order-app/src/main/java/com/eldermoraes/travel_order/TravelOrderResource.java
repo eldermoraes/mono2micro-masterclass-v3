@@ -19,7 +19,7 @@ public class TravelOrderResource {
     }
 
     @GET
-    public List<TravelOrder> travelOrders(){
+    public List<TravelOrder> travelOrders() {
         return TravelOrder.listAll();
     }
 

@@ -4,7 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20cc162d-70aa-49ff-aec3-e079e9500f35" name="Changes" comment="" />
+    <list default="true" id="20cc162d-70aa-49ff-aec3-e079e9500f35" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/LivenessCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/ReadinessCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro/travel_flight-app/src/main/java/com/eldermoraes/travel_flight/LivenessCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro/travel_hotel-app/src/main/java/com/eldermoraes/travel_hotel/LivenessCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order/LivenessCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_aggregator-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/TravelOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/TravelOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_flight-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_flight-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_hotel-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_hotel-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_order-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_order-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order/TravelOrderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order/TravelOrderResource.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,10 +29,13 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2uJHAhn1pEvNEszMKI7l0ecOUSP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/emoraes/git/eldermoraes/mono2micro-masterclass-v3/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -38,6 +55,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order" />
+      <recent name="$PROJECT_DIR$/micro/travel_hotel-app/src/main/java/com/eldermoraes/travel_hotel" />
+      <recent name="$PROJECT_DIR$/micro/travel_flight-app/src/main/java/com/eldermoraes/travel_flight" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -54,6 +78,7 @@
       <option name="presentableId" value="Default" />
       <updated>1741959614504</updated>
       <workItem from="1741959615585" duration="888000" />
+      <workItem from="1743529958007" duration="2965000" />
     </task>
     <servers />
   </component>
