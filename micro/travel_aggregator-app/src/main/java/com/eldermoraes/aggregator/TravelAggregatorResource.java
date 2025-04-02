@@ -1,5 +1,6 @@
 package com.eldermoraes.aggregator;
 
+import io.smallrye.common.annotation.RunOnVirtualThread;
 import jakarta.inject.Inject;
 import jakarta.ws.rs.*;
 import jakarta.ws.rs.core.MediaType;
@@ -11,6 +12,7 @@ import java.util.stream.Collectors;
 @Path("travel-aggregator")
 @Consumes(MediaType.APPLICATION_JSON)
 @Produces(MediaType.APPLICATION_JSON)
+@RunOnVirtualThread
 public class TravelAggregatorResource {
 
     @RestClient
@@ -28,6 +30,7 @@ public class TravelAggregatorResource {
     @GET
     public List<TravelAggregatorDTO> travelAggregatorDTOS(){
 
+        System.out.println(Thread.currentThread());
         return travelOrderService.<TravelOrder>travelOrders().stream()
                 .map(
                         order -> TravelAggregatorDTO.of(

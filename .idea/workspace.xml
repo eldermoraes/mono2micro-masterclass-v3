@@ -5,18 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20cc162d-70aa-49ff-aec3-e079e9500f35" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/LivenessCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/ReadinessCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro/travel_flight-app/src/main/java/com/eldermoraes/travel_flight/LivenessCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro/travel_hotel-app/src/main/java/com/eldermoraes/travel_hotel/LivenessCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order/LivenessCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postgres.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro/travel_aggregator-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/TravelOrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/TravelOrderService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/TravelAggregatorResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/java/com/eldermoraes/aggregator/TravelAggregatorResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_aggregator-app/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro/travel_flight-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_flight-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_flight-app/src/main/java/com/eldermoraes/travel_flight/TravelFlightResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_flight-app/src/main/java/com/eldermoraes/travel_flight/TravelFlightResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_flight-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_flight-app/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro/travel_hotel-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_hotel-app/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_hotel-app/src/main/java/com/eldermoraes/travel_hotel/TravelHotelResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_hotel-app/src/main/java/com/eldermoraes/travel_hotel/TravelHotelResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_hotel-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_hotel-app/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro/travel_order-app/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_order-app/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order/TravelOrderResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order/TravelOrderResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/micro/travel_order-app/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/micro/travel_order-app/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +27,18 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;eldermoraes-dev/api-rm2-thpm-p1-openshiftapps-com:6443/eldermoraes&quot;,
+      &quot;originalNamespace&quot;: &quot;eldermoraes-dev&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="eldermoraes-dev/api-rm2-thpm-p1-openshiftapps-com:6443/eldermoraes" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -40,21 +54,21 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/emoraes/git/eldermoraes/mono2micro-masterclass-v3/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/emoraes/git/eldermoraes/mono2micro-masterclass-v3/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/micro/travel_order-app/src/main/java/com/eldermoraes/travel_order" />
@@ -78,7 +92,8 @@
       <option name="presentableId" value="Default" />
       <updated>1741959614504</updated>
       <workItem from="1741959615585" duration="888000" />
-      <workItem from="1743529958007" duration="2965000" />
+      <workItem from="1743529958007" duration="5665000" />
+      <workItem from="1743614225367" duration="1485000" />
     </task>
     <servers />
   </component>
